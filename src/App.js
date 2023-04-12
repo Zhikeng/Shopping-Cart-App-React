@@ -17,9 +17,11 @@ function App() {
 
       <BrowserRouter>
         <CartContext.Provider value={{cartItems,setCartItems}}>
+         <nav>
           <Link to="/">Home<br /></Link>
           <Link to="/checkout">Shopping Cart<br /></Link>
           <Link to="/item">Product</Link>
+         </nav>
 
           <Routes>
             <Route path="/" element={<Itemlist />} />

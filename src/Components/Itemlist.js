@@ -62,9 +62,9 @@ export default function Itemlist() {
     <>
       <Title mainTitle={'Anni\'s Fruit Store'} />
 
-      <Alert variant='success'>Please choose the items: {input}</Alert>
-      <input type="text" onChange={e => setInput(e.target.value)} />
-      <Button type="submit" onClick={handleSearch}>Search</Button><br /><br />
+//       <Alert variant='success'>Please choose the items: {input}</Alert>
+//       <input type="text" onChange={e => setInput(e.target.value)} />
+//       <Button type="submit" onClick={handleSearch}>Search</Button><br /><br />
       {showItems && <Button onClick={handleClickFalse}>Hide items</Button>}
       {!showItems && <Button onClick={handleClickTrue}>Show items</Button>}
       <hr />

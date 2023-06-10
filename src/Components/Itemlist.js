@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Title from './Title';
 import QuantityBtn from './QuantityBtn';
-import { Button, Alert } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 
 
